@@ -1,0 +1,129 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* HEADER STYLES */
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30px;
+    font-family: "Poppins", sans-serif;
+    background-color: #f0eae7;
+  }
+  .wrapper {
+    width: 50%;
+    padding: 20px 10px;
+
+  }
+  .navigationList {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navigationListItem {
+    list-style: none;
+  }
+  .navigationListItem a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  .navigationListItem a:hover {
+    color: #BD8985;
+  }
+  /* HERO SECTION STYLES */
+  .separator {
+    width: 700px;
+  }
+ .left{
+     float:left;
+     padding:30px;
+ }
+.right {
+    float:right;
+    padding:30px;
+    background-color:#A4ACC2;
+}
+.aboutMe {
+    height:780px;
+    padding:25px;
+    background-color:#A4ACC2;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-around;
+    text-align: left;
+
+}
+h1 {
+    font-weight: bold;
+    font-size:64px;
+    padding: 10px;
+}
+h2 {
+    font-size:48px;
+    font-weight: medium;
+}
+p {
+    font-size: 22px;
+    font-weight:normal;
+    height:fit-content;
+    
+}
+  /* FOOTER CLASSES */
+  footer {
+      background-color:#f0eae7;
+  }
+  .separatorFooter {
+    width: 700px;
+    
+  }
+  .test {
+      float:left;
+      font-family: "Poppins", sans-serif;
+    justify-content: space-around;
+    text-align: left;
+    mask-image: ;
+  }
+  .info {
+    float:right;
+    font-family: "Poppins", sans-serif;
+  justify-content: space-around;
+  text-align: left;
+  }
+  button {
+    background-color: #D29D99;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+  .footerLogo {
+      height:10px;
+      height:10px;
+      justify-content: center;
+
+  }
+  .footerSection {
+      width: 100%;
+      min-height:300px;
+      padding:20px;
+
+    
+  }
+  .footerSectionInfo {
+    width: 30%;
+    align-items: center;
+  }
